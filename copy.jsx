@@ -152,7 +152,9 @@ function SignupAuth() {
     verify_license();
   };
 
-  const formatSignupData = () => {
+  
+//formating the data
+const formatSignupData = () => {
     const ageRanges = {
       "20to30": "0",
       "31to40": "0",
